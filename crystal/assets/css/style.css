@@ -34,7 +34,21 @@ p {
     margin-left: 5px;
 }
 
-#box1 {
+.col6 {
+    width: 200px;
+    height: 100px;
+    background: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-style: double;
+    border-width: 2px;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.col5 {
     width: 200px;
     height: 100px;
     background: white;
@@ -44,16 +58,18 @@ p {
     border-width: 2px;
 }
 
+
 #win-lose {
     width: 200px;
     height: 100px;
     background: white;
     margin-left: 300px;
+    margin-bottom: 5px;
     border-style: double;
     border-width: 2px;
 }
 
-li{
+li {
     margin-top: 10px;
 }
 
@@ -67,11 +83,13 @@ img {
 }
 
 .container {
+    clear: both;
+    overflow: auto;
     margin-left: 13px;
 }
 
 #player-score {
-    width: 250px;
+    width: 190px;
     height: 30px;
     background: white;
     margin-left: 10px;
@@ -89,4 +107,7 @@ img {
     background: white;
     border-width: 2px;
     border-style: double;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
 }

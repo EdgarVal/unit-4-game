@@ -6,11 +6,7 @@
   <title>Crystal's Collector</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/images">
-  <script type="text/javascript" src="assets/javascript/game.js">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"
-           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-           crossorigin="anonymous"></script>
+  
 </head>
 <body>
 
@@ -43,51 +39,57 @@
         <p>*Each time when the game starts, the game will change the values 
             of each crystal.
         </p>
-   </div>
-
-
-    <div id="box1">
-        <div id="target-score"></div>
-
-
-    <div id="win-lose">
-        <ul>
-            <li>wins:</li>
-            <li>losses:</li>
-        </ul>
     </div>
-   </div>
 
+    <br>
 
-   <br>
-
-
-   <div class="container">
+    <div class="container">
         <div class="row">
-                <div class="col1">
-                  <img src="assets/images/2-Star_Crystal.jpg" alt="crystal">
+            <div class="col6 target">
+         </div>
+
+        <div class="col5 wins-losses">
+          <ul>
+            <li id="wins">wins:</li>
+            <li id="losses">losses:</li>
+          </ul>
+       </div>
+    </div>
+  </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+                <div class="col images">
+                  <img src="assets/images/2-Star_Crystal.jpg" alt="crystal" class="img" id="img0">
                 </div>
-                <div class="col2">
-                  <img src="assets/images/Crystal_Shards.jpg" alt="crystal">
+                <div class="col images">
+                  <img src="assets/images/Crystal_Shards.jpg" alt="crystal" class="img" id="img1">
                 </div>
-                <div class="col3">
-                  <img src="assets/images/Gacha_Crystal.jpg" alt="crystal">
+                <div class="col images">
+                  <img src="assets/images/Gacha_Crystal.jpg" alt="crystal" class="img" id="img2">
                 </div>
-                <div class="col4">
-                  <img src="assets/images/Shadowshard_crystal.jpg" alt="crystal">
+                <div class="col images">
+                  <img src="assets/images/Shadowshard_crystal.jpg" alt="crystal" class="img" id="img3">
                 </div>
               </div>
             </div>
         </div>
 
+    <br>
 
-   <br>
-
-
-   <div id="end">
+    <div id="end">
        <div id="player-score">Your total score is:</div>
        <div id="total-score"></div>
-   </div>
+    </div>
+   
+   
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+           crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
    </body>
